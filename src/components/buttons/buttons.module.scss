@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap');
+
+.homeButton{
+    background-color: transparent;
+    border: none;
+    font-family: 'Judson', serif;
+    color: #ffffff;
+
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    cursor: pointer;
+
+    transition: 1s;
+}
+
+.homeButton:hover{
+    box-shadow: 0px 10px 20px #000;
+    border-radius: 20px;
+    
+}
+
+.editButton {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../assets/images/edit.png');
+    /* Substitua pela URL da imagem de editar */
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+
+/* Botão de deletar */
+.deleteButton {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../assets/images/trash.png');
+    /* Substitua pela URL da imagem de deletar */
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+
+/* Botão de iniciar */
+.startButton {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../assets/images/Start.png');
+    /* Substitua pela URL da imagem de iniciar */
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+
+/* Botão de finalizar */
+.finishButton {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../assets/images/Finish\ Flag.png');
+    /* Substitua pela URL da imagem de finalizar */
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
